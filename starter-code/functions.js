@@ -1,6 +1,12 @@
 // Question 1
-function maxOfTwoNumbers() {
-
+function maxOfTwoNumbers(a, b) {
+	if (a>b){
+		return a
+	} else if (a<b){
+		return b
+	} else {
+		return "Numbers are equal, dummy!"
+	}
 }
 
 // Question 2
