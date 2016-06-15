@@ -1,17 +1,25 @@
 // Question 1
 function maxOfTwoNumbers(a, b) {
 	if (a>b){
-		return a
+		return a;
 	} else if (a<b){
-		return b
+		return b;
 	} else {
-		return "Numbers are equal, dummy!"
+		return "Numbers are equal, dummy!";
 	}
 }
 
 // Question 2
-function maxOfThree() {
-
+function maxOfThree(a, b, c) {
+	if (a>b && a>c){
+		return a;
+	} else if (b>a && b>c){
+		return b;
+	} else if (c>a && c>b){
+		return c;
+	} else {
+		return "Numbers are equal, dummy!";
+	}
 }
 
 // Question 3
