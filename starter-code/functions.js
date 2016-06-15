@@ -23,8 +23,12 @@ function maxOfThree(a, b, c) {
 }
 
 // Question 3
-function isCharacterAVowel() {
-
+function isCharacterAVowel(letter) {
+	if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'){
+		return true;
+	} else {
+		return false;
+	}
 }
 
 // Question 4
