@@ -32,10 +32,13 @@ function isCharacterAVowel(letter) {
 }
 
 // Question 4
-function sumArray() {
- 
+function sumArray(array) {
+	var sum = 0;
+ 	for (var i = 0; i < array.length; i++) {
+ 		sum += array[i];
+ 	}
+ 	return sum;
 }
-
 
 // Question 4
 function multiplyArray() {
@@ -46,7 +49,7 @@ function multiplyArray() {
 // Question 5
 var numberOfArguments = function(){
   
-}
+};
 
 
 
