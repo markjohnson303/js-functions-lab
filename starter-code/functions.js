@@ -42,7 +42,11 @@ function sumArray(array) {
 
 // Question 4
 function multiplyArray() {
-
+	var answer = 1;
+ 	for (var i = 0; i < array.length; i++) {
+ 		answer *= array[i];
+ 	}
+ 	return answer;
 }
 
 
