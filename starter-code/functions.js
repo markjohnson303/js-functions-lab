@@ -52,7 +52,7 @@ function multiplyArray() {
 
 // Question 5
 var numberOfArguments = function(){
-  
+  return arguments.length;
 };
 
 
